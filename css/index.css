@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72);
+    margin: 0px 50px;
+}
+header{
+    height: 300px;
+    padding: 10px 0px;
+}
+.cabecera{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 25px 0px;
+}
+nav{
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-align: center;
+    font-size:large;
+    font-weight: 500;
+}
+nav a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 35px;
+}
+a:hover{
+    background-color: #000;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: ;
+}
+main{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    margin: 0px 60px;
+    padding: 35px 0px;
+}
+.titulos{
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+}
+hr{
+    width: 150px;
+    height: 4px;
+    background-color: #fff;
+    margin-bottom: 35px;
+}
+h3{
+    /*font-style: oblique;*/
+    font-size: 25px;
+    font-weight: normal;
+    padding: 25px 0px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    color: #fff;
+    padding: 25px 0px;
+    font-style: oblique;
+}
+.sobre-mi, .experiencia, .proyectos, .formulario, .sobre-ti, .encuesta, footer{
+    padding: 45px 45px;
+    background-color: #051937;
+    border-radius: 10px;
+    margin: 25px 0px;
+}
+.encuesta p, .sobre-ti p{
+    text-align: center;
+}
+.input-text, .input-radio, input, .input-checkbox, .select{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.formulario p{
+    text-align: center;
+}
+.form{
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.texto{
+    background-color: #fff;
+    padding: 10px 10px;
+    border: 1.5px solid #000;
+    height: 70px;
+    width: 600px;
+    font-size: 25px;
+}
+.textarea{
+    background-color: #fff;
+    padding: 10px 10px;
+    border: 1.5px solid #000;
+    height: 200px;
+    width: 600px;
+    resize: none;
+    font-size: 25px;
+}
+.boton, li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+footer p{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    margin: 0px 60px;
+    padding: 35px 0px;
+    text-align: center;;
+}
+/*Borrar este codigo luego, solo es para probar select*/
+.probarSelect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}/*Hasta aqui borrar*/
+.izquierda{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin: 10px 10px;
+}
+.contenido{
+    display: flex;
+    align-items: center;
+}

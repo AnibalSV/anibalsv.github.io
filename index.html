@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="validacion.js"></script>
+</head>
+<body>
+    <header>
+    <!--Cabecera-->
+        <div class="cabecera">
+            <h1>Anibal Sequera</h1>
+            <h4>Estudiante de programación.</h4>
+        </div>
+    <!--Barra de navegación-->
+        <nav class="nav">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#proyectos">Proyectos actuales</a>
+            <a href="#encuesta">Comparte tu opinión</a>
+            <a href="#sobre-ti">Cuentanos de ti</a>
+            <a href="#formulario">Formulario de contacto</a>
+        </nav>
+    </header>
+    <!--Cuerpo-->
+    <main>
+    <!--Sección: sobre mi-->
+        <div id="sobre-mi" class="sobre-mi">
+            <h2 class="titulos"><b>Un poco de mí</b></h2>
+            <hr class="linea">
+            <section>
+               <h3>Intereses</h3>
+               <p>Me gusta mucho el mundo de la programación, el hecho de que por un lado
+                sea algo tan abstracto, tan complejo, y al mismo tiempo tan simple como para 
+                que sea posible crear a partir de una idea, de la combinacion de la imaginacion,
+                codigo y un portatil, es fascinante. Quiero convertirme en un gran programador, alguien
+                que al apoyar su cabeza en la almohada cada noche sepa que el dia siguiente podra
+                seguir cumpliendo su sueño, creando.
+               </p>
+            </section>
+            <section>
+            <h3>Pasatiempos</h3>
+            <p>Disfruto compartir el tiempo con las personas importantes para mi, teniendo eso como
+               base, y la naturaleza a disposicion, salir a caminar y disfrutar del lado verde del 
+               mundo siempre es un plan ideal, ademas de ello, conversar con quienes siempre ofrecen
+               un tema de conversación interesante puede llegar a ser muy enriquecedor, y si a esa formula
+               es posible añadirle una buena comida o algo para compartir, se vuelve un plan aun mejor;
+               ahora bien, para los dias en que salir de casa no es una opción, disfrura de una buena pelicula o
+               de una serie entretenida es el pasatiempo ideal, y sin duda alguna, siempre es divertido ingresar
+               al mundo digital, recorrer el mundo entero y tener batallas epicas en un video juego divertido.
+            </p>
+            </section>
+        </div>
+    <!--Sección: Experiencia-->
+        <div id="experiencia" class="experiencia">
+            <section>
+                <h2 class="titulos"><b>Experiencia</b></h2>
+                <hr>
+                <p>Viendo en retrospectiva, mas que la necesidad, he tenido la oportunidad de aprender varios
+                   oficios, no especificamente en el area que me entusiasma pero no por ello menos enriquecedores
+                   en medida que lo permiten, siempre ha estado presente en mí la voluntad de "ganarme la vida"
+                   de una manera honrada, y con ello en mente he aprendido oficios tan variados como distintos entre ellos,
+                   hasta ahora he lavado autos, instalado redes privadas,atendido clientes en empresas de remesas, restaurantes
+                   y tiendas de servicio celular,preparado comida rapida, prestado servicio de delivery, entre muchos otros.
+                   La lista continua, han sido muchos años sin "quedarme tranquilo" y gracias a ello, y a tal variedad de 
+                   ocupaciones, ahora puedo, con la misma facilidad, realizar cualquier tarea que requiera esfuerzo fisico y
+                   en contraparte, abordar cualquier problema de manera objetiva para encontrar la solucion. por lo
+                   tanto aun cuando no he podido ejercer aun la ocupacón que me apasiona, estoy muy contento por haber
+                   tenido tal cantidad de oportunidades, porque me han traido al punto en el que estoy hoy, a ser quien soy, a valorar
+                   mi trabajo y el trabajo de los demas, y todo ello, desde cualquier ángulo que se observe, es ganancia.
+                </p>
+            </section>
+        </div>
+    <!--Sección: Proyectos-->
+        <div id="proyectos" class="proyectos">
+            <section>
+                <h2 class="titulos"><b>Proyectos actuales</b></h2>
+                <hr>
+                <p>Ahora mismo, a nivel personal hay mucho por hacer, he llegado recientemente a un pais distinto, a un mundo distinto,
+                   podria decirse, sin ningun temor a equivocarme, por lo que viendo a mi alrededor esta muy presente en mi mente la 
+                   sensación de que en el lugar en que me encuentro esta a mi alcance alcanzar lo que me he propuesto, sin exito, lograr
+                   hasta ahora, desde objetivos tan generales como alcanzar una mejor calidad de vida y brindarsela tambien a las
+                   personas que son importantes para mi, pasando por otros aspectos mas personales como alcanzar el exito profesional
+                   al ejercer la carrera que me apasionada y estar mas cerca cada día de ser la persona que quiero ser, alguien que
+                   haciendo lo que le gusta pueda tener una vida tranquila, y compartir esa tranquilidad con las personas a mi alrededor,
+                   dormir y despertar con el pensamiento de que "trabajo" es solo una palabra, porque lo que hago en realidad es vivir
+                   mi sueño, ese es el objetivo.
+                </p>
+            </section>
+        </div>
+    <!--Sección: Encuesta-->
+        <div class="encuesta" id="encuesta">
+            <form>
+                <h2 class="titulos"><b>Tu opinión es muy importante</b></h2>
+                <hr>
+    <!--Input:text-->
+                <p>Agradecería que dedique unos minutos a llenar la siguiente encuesta, de acuerdo a tu opinión personal y a la percepción que tienes sobre mi</p>
+                <div class="input-text">
+                    <span>
+                        <p>Describeme, usando tres palabras</p>
+                        <input class="texto" type="text" name="" id="">
+                        <p>¿Cuáles consideras que son mis mayores fortalezas?</p>
+                        <input class="texto" type="text" name="" id="">
+                    </span>
+                    <span>
+                        <p>¿Cuáles consideras que son mis mayores debilidades?</p>
+                        <input class="texto" type="text" name="" id="">
+                        <p>¿Qué te gusta de mí?</p>
+                        <input class="texto" type="text" name="" id="">
+                    </span>
+                </div>
+    <!--Input:radio-->
+                <div class="input-radio">
+                    <div class="izquierda">
+                        <div>
+                            <p>¿Crees que soy gracioso?</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">1</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">2</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">3</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">4</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">5</label>
+                            </li>
+                        </ul> 
+                    </div>
+                    <div class="izquierda">
+                        <div>
+                            <p>¿Crees que soy gracioso?</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">1</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">2</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">3</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">4</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">5</label>
+                            </li>
+                        </ul> 
+                    </div>
+                    <div class="izquierda">
+                        <div>
+                            <p>¿Crees que soy gracioso?</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">1</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">2</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">3</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">4</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">5</label>
+                            </li>
+                        </ul> 
+                    </div>
+                    <div class="izquierda">
+                        <div>
+                            <p>¿Crees que soy gracioso?</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">1</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">2</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">3</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">4</label>
+                            </li>
+                            <li>
+                                <input class="radio" type="radio" name="gracioso" id="si">
+                                <label for="si">5</label>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+    <!--Input:checkbox-->
+                <div class="input-checkbox">
+                    <div class="izquierda">
+                        <div>
+                            <p>¿A qué crees que no dedico tiempo suficiente?</p> 
+                        </div>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>1</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>2</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>3</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>4</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>5</labe>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="izquierda">
+                        <p>¿A qué crees que no dedico tiempo suficiente?</p>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>1</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>2</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>3</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>4</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>5</labe>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="izquierda">
+                        <p>¿A qué crees que no dedico tiempo suficiente?</p>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>1</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>2</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>3</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>4</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>5</labe>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="izquierda">
+                        <p>¿A qué crees que no dedico tiempo suficiente?</p>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>1</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>2</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>3</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>4</labe>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <labe>5</labe>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+    <!--Input:select-->
+                <div class="select">
+                    <div class="izquierda">
+                        <p>AQUI IRA UNA PREGUNTA PARA SELECT</p>
+                        <select name="" id="select1" onchange="cambiarcolor()">
+                            <option value="Primer select">Select1</option>
+                            <option value="Segundo select">Select2</option>
+                            <option value="Tercer select">Select3</option>
+                            <option value="Cuarto select">SElect4</option>
+                        </select>
+                    </div>
+                    <div class="izquierda">
+                        <p>AQUI IRA UNA PREGUNTA PARA SELECT</p>
+                        <select name="" id="select1" onchange="cambiarcolor()">
+                            <option value="Primer select">Select1</option>
+                            <option value="Segundo select">Select2</option>
+                            <option value="Tercer select">Select3</option>
+                            <option value="Cuarto select">SElect4</option>
+                        </select>
+                    </div>
+                </div>
+                <!--<div class="probarSelect">
+                    <p>Para probar los input</p><br>
+                    <p>Indice</p><br><input class="texto" type="text" name="" id="text1">
+                    <p>Texto</p><br><input class="texto" type="text" name="" id="text2">
+                    <p>Value</p><br><input class="texto" type="text" name="" id="text3">
+                    <div class="boton">
+                        <input class="btn" type="button" value="Enviar" onclick="validarcheck()">
+                    </div> 
+                </div>-->
+            </form>
+        </div>
+    <!--Sección: Sobre ti-->
+        <div class="sobre-ti" id="sobre-ti">
+            <form action="">
+                <h2 class="titulos"><b>Hablemos sobre ti</b></h2>
+                <hr>
+                <p>Por favor, comparte conmigo, algo de información sobre ti, para conocerte</p>
+                <div class="input-text">
+                    <span>
+                        <p>Si solo pudieras comer un alimento el resto de tu vida, ¿cuál sería?</p>
+                        <input type="text" name="" id="" class="texto">
+                        <p>¿Qué es lo que más te gusta hacer en tu tiempo libre?</p>
+                        <input type="text" name="" id="" class="texto">
+                    </span>
+                    <span>
+                        <p>¿Qué es lo que más te gustaría aprender o probar?</p>
+                        <input type="text" name="" id="" class="texto">
+                        <p>Si pudieras salvar una cosa material de un incendio, ¿qué salvarías?</p>
+                        <input type="text" name="" id="" class="texto">
+                    </span>
+                </div>
+                <div class="input-text">
+                    <span>
+                        <p>¿Qué harías si se fuera la luz en todo el planeta?</p>
+                        <input type="text" name="" id="" class="texto">
+                        <p>¿Cuál es el mayor desafío que has enfrentado?</p>
+                        <input type="text" name="" id="" class="texto">
+                    </span>
+                    <span>
+                        <p>¿Qué es lo más emocionante de tu trabajo?</p>
+                        <input type="text" name="" id="" class="texto">
+                        <p>¿Qué es lo que más te gusta de ti mismo (a)?</p>
+                        <input type="text" name="" id="" class="texto">
+                    </span>
+                </div>
+            </form>
+        </div>
+    <!--Sección: Contáctame-->
+        <div id="formulario" class="formulario">
+            <form>
+                <h2 class="titulos"><b></b></h2>
+                <hr>
+                <p>Si desea ponerse en contacto conmigo, por favor deje su información a continuación y me comunicaré con usted.</p>
+                <div class="form">
+                    <div class="input">
+                        <input class="texto" id="nombre" type="text" value="Nombres">
+                        <input class="texto" id="email" type="email" value="Email">
+                    </div>
+                    <div>
+                        <textarea class="textarea" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="boton">
+                    <input class="btn" type="button" value="Enviar" onclick="verificar()">
+                </div> 
+            </form>
+        </div>
+    </main>
+    <!--Pie de página-->
+    <footer>
+        <p>Hecho por Anibal Sequera-2024.</p>
+    </footer>
+</body>
+</html>
